@@ -1,0 +1,11 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Random Form Filler",
+  "version": "1.0.0",
+  "description": "Fills choice groups and the last text field on the current page when you click the extension.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Fill this page",
+    "default_popup": "popup.html"
+  }
+}

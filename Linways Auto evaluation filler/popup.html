@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Form Filler</title>
+  <style>
+    body { width: 260px; margin: 0; padding: 16px; color: #202124; font: 14px/1.45 system-ui, sans-serif; }
+    h1 { margin: 0 0 8px; font-size: 16px; }
+    p { margin: 0 0 12px; color: #5f6368; }
+    button { width: 100%; padding: 9px 12px; border: 0; border-radius: 6px; background: #2457d6; color: white; font: inherit; font-weight: 600; cursor: pointer; }
+    button:disabled { opacity: .65; cursor: wait; }
+    #status { min-height: 20px; margin-top: 10px; color: #333; }
+  </style>
+</head>
+<body>
+  <h1>Random Form Filler</h1>
+  <p>Choose one option in up to 10 groups, then fill the last text box.</p>
+  <button id="fill">Fill this page</button>
+  <div id="status" role="status" aria-live="polite"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
